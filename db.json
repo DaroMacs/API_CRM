@@ -1,0 +1,36 @@
+{
+  "customers": [
+    {
+      "name": "Dario Macedoff",
+      "company": "Independent",
+      "email": "dariomacedog@gmail.com",
+      "phone": "17788344180",
+      "notes": "fdfd",
+      "id": 2
+    },
+    {
+      "name": "Dario Macedo",
+      "company": "Independent",
+      "email": "dariomacedog@gmail.com",
+      "phone": "17788344180",
+      "notes": "DDD",
+      "id": 3
+    },
+    {
+      "name": "Dario Macedo",
+      "company": "Personal",
+      "email": "dariomacedog@gmail.com",
+      "phone": "17788344180",
+      "notes": "ddd",
+      "id": 4
+    },
+    {
+      "name": "ana",
+      "company": "Independent",
+      "email": "dariomacedog@gmail.com",
+      "phone": "17788344180",
+      "notes": "",
+      "id": 5
+    }
+  ]
+}
