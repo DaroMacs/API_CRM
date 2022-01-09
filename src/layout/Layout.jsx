@@ -16,12 +16,12 @@ const Layout = () => {
 
                 <nav className="mt-10">
                 <Link 
-                    className={`${currentUrl === '/' ? 'text-blue-300' : 'text-white'}  text-1xl block mt-2 hover:text-blue-300`}
-                    to="/"
+                    className={`${currentUrl === '/customers' ? 'text-blue-300' : 'text-white'}  text-1xl block mt-2 hover:text-blue-300`}
+                    to="/customers"
                 >Customers </Link>
                 <Link 
-                    className={`${currentUrl === '/new' ? 'text-blue-300' : 'text-white'} text-1xl block mt-2 hover:text-blue-300`}
-                    to="/new">New Customer</Link>
+                    className={`${currentUrl === '/customers/new' ? 'text-blue-300' : 'text-white'} text-1xl block mt-2 hover:text-blue-300`}
+                    to="/customers/new">New Customer</Link>
                 </nav>
                 
             </div>

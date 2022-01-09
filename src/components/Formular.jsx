@@ -49,7 +49,7 @@ const Formular = ({customer, loading}) => {
 
         await response.json()
  
-        navigate('/')
+        navigate('/customers')
 
        } catch (error) {
            console.log(error);

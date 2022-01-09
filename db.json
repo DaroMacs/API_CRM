@@ -1,14 +1,6 @@
 {
   "customers": [
     {
-      "name": "Dario Macedo Garduno",
-      "company": "Independent",
-      "email": "dariomacedog@gmail.com",
-      "phone": "5579217169",
-      "notes": "",
-      "id": 1
-    },
-    {
       "name": "Darío Garduno",
       "company": "ddddd",
       "email": "dariomacedog@gmail.com",

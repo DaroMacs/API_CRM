@@ -17,13 +17,13 @@ const Customer = ({customer,handleDelete}) => {
             <td className='p-3'>
                 <button 
                     className='bg-yellow-500 hover:bg-yellow-600 block w-full text-white p-2 font-bold text-xs rounded-md' type='button'
-                    onClick={() => navigate(`/${id}`)}
+                    onClick={() => navigate(`/customers/${id}`)}
                 >
                 Details
                 </button>
                 <button 
                     className='bg-blue-600 hover:bg-blue-700 block w-full text-white p-2 font-bold text-xs rounded-md mt-1' type='button'
-                    onClick={() => navigate(`/edit/${id}`)}
+                    onClick={() => navigate(`/customers/edit/${id}`)}
                 >
                 Edit
                 </button>
