@@ -22,7 +22,7 @@ const Formular = ({customer, loading}) => {
            let response;
         if(customer.id) {
             //EDITING NEW REGISTER
-            const url =  `http://localhost:4000/customers/${customer.id}`
+            const url =  `${import.meta.env.VITE_API_URL}/${customer.id}`
 
             //THIS ASYNC IS TO POST IN THE SERVER
             response = await fetch (url, {
@@ -35,7 +35,7 @@ const Formular = ({customer, loading}) => {
 
         } else {
             //NEW CUSTOMER
-            const url =  'http://localhost:4000/customers'
+            const url =  import.meta.env.VITE_API_URL
 
             //THIS ASYNC IS TO POST IN THE SERVER
             response = await fetch (url, {

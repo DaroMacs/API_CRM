@@ -8,7 +8,7 @@ import Customer from '../components/Customer'
     useEffect( () => {
         const getCustomersAPI = async () => {
             try {
-                const url = 'http://localhost:4000/customers'
+                const url = import.meta.env.VITE_API_URL
                 const response = await fetch(url)    
                 const result = await response.json()
                 
@@ -28,14 +28,14 @@ import Customer from '../components/Customer'
         
         if(confirmation) {
             try {
-                const url = `http://localhost:4000/customers/${id}`
+                const url = `${import.meta.env.VITE_API_URL}/${id}`
                 const response = await fetch (url, {
                     method: 'DELETE'
                 })
 
                 await response.json()
 
-                const arrayCustomers = customers.filter( customer => customers.id !== id )
+                const arrayCustomers = customers.filter( customer => customer.id !== id )
 
                 setCustomers(arrayCustomers)
 
